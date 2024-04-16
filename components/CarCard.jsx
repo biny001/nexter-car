@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const CarCard = ({ image, car, title }) => {
   return (
-    <div className="relative h-full py-1 shadow-2xl drop-shadow-xl">
+    <div className="relative h-full py-1 shadow-2xl    ">
       {/* Background SVG image */}
       <div className="absolute top-0 left-0 w-full h-full">
         <Image
